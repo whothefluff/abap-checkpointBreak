@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CHECKPOINT_BREAK</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Breakpoint dependent on a checkpoint group</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CHECKPOINT_BREAK</CLSNAME>
+     <CMPNAME>AN_ASSER_ACT_AS_BP_OR_AB_BOOL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkpoint grp. has assertion activated as BP (abort for bg)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CHECKPOINT_BREAK</CLSNAME>
+     <CMPNAME>AN_ASSER_ACT_AS_BP_OR_LOG_BOOL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkpoint group has assertion activated as BP (log for bg)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CHECKPOINT_BREAK</CLSNAME>
+     <CMPNAME>A_BREAKPOINT_ACTIVE_BOOL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkpoint group has BP activated</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CHECKPOINT_BREAK</CLSNAME>
+     <CMPNAME>A_CHECKPOINT_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Associated checkpoint group ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CHECKPOINT_BREAK</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Creates a checkpoint BP using a checkpoint group name</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

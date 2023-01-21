@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_CHECKPOINT_BREAK</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Breakpoint dependent on a checkpoint group</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CHECKPOINT_BREAK</CLSNAME>
+     <CMPNAME>ASSER_IS_ACTIVE_AS_BP_OR_ABORT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkpoint grp. has assertion activated as BP (abort for bg)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CHECKPOINT_BREAK</CLSNAME>
+     <CMPNAME>ASSER_IS_ACTIVE_AS_BP_OR_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkpoint group has assertion activated as BP (log for bg)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CHECKPOINT_BREAK</CLSNAME>
+     <CMPNAME>BREAK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Call break-point statement</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CHECKPOINT_BREAK</CLSNAME>
+     <CMPNAME>BREAKPOINT_IS_ACTIVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkpoint group has BP activated</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CHECKPOINT_BREAK</CLSNAME>
+     <CMPNAME>BREAK_OR_DELAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Call break-point statement (commit-less wait if bg process)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CHECKPOINT_BREAK</CLSNAME>
+     <CMPNAME>BREAK_OR_INFINITE_LOOP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Call break-point statement (infinite loop if bg process)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CHECKPOINT_BREAK</CLSNAME>
+     <CMPNAME>IS_ACTIVE_IN_ANY_WAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkpoint group has anything activated as BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CHECKPOINT_BREAK</CLSNAME>
+     <CMPNAME>T_CHECKPOINT_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkpoint group name</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
